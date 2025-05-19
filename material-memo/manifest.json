@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "default_locale": "ja",
+  "name": "__MSG_chromeExtensionName__",
+  "version": "1.0",
+  "description": "__MSG_chromeExtensionDescription__",
+  "icons": {
+    "16": "image/icon-16.png",
+    "48": "image/icon-48.png",
+    "128": "image/icon-128.png"
+  },
+  "author": "Kakoi Keisuke",
+  "side_panel": {
+    "default_path": "sidepanel/index.html"
+  },
+  "action": {
+    "default_icon": {
+      "16": "image/icon-16.png",
+      "48": "image/icon-48.png"
+    }
+  },
+  "permissions": [
+    "sidePanel",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background/script.js"
+  }
+}

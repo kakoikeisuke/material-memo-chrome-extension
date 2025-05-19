@@ -1,0 +1,17 @@
+{
+  "chromeExtensionName": {
+    "message": "Material Memo"
+  },
+  "chromeExtensionDescription": {
+    "message": "A Chrome extension for taking notes on CG materials."
+  },
+  "newMaterialCreateButton": {
+    "message": "Save"
+  },
+  "saveMaterialError": {
+    "message": "There are errors in the following items:"
+  },
+  "settingMessage": {
+    "message": "Please check the items you want to include when creating."
+  }
+}

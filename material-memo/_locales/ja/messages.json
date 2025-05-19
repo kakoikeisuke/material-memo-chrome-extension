@@ -1,0 +1,17 @@
+{
+  "chromeExtensionName": {
+    "message": "Material Memo"
+  },
+  "chromeExtensionDescription": {
+    "message": "3DCG用のマテリアルをメモするためのChrome拡張機能です。"
+  },
+  "newMaterialCreateButton": {
+    "message": "保存"
+  },
+  "saveMaterialError": {
+    "message": "次の項目にエラーがあります："
+  },
+  "settingMessage": {
+    "message": "作成する際に入力する項目にチェックをつけてください。"
+  }
+}

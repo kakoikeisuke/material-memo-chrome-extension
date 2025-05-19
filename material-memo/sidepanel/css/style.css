@@ -1,0 +1,226 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+main {
+    margin: 0;
+    padding: 20px;
+}
+.material-div {
+    margin: 20px 0 0 0;
+    border-radius: 17px;
+    background-color: #eeeeee;
+}
+#new-material-div {
+    margin: 0;
+    border: 2px solid #000000;
+    padding: 15px;
+    background-color: #ffffff;
+}
+.new-material-name-and-setting-div {
+    margin: 0 0 20px 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+#new-material-name {
+    width: 50%;
+    margin: 0;
+    padding: 5px;
+    border-radius: 0;
+    border: 1px solid #000000;
+    outline: none;
+    font-weight: bold;
+}
+#new-material-name:focus {
+    font-style: italic;
+    border: 1px solid #000000;
+}
+.new-material-setting {
+    margin: 0;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-image: url("../../image/setting.svg");
+}
+.new-material-element-div {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.new-material-element-name {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 13px;
+}
+.new-material-element-value-div {
+    margin: 0;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.input-range {
+    width: 70px;
+}
+.input-number {
+    margin: 0 0 0 10px;
+    width: 27px;
+    border-radius: 0;
+    border: 1px solid #000000;
+    outline: none;
+}
+.input-number:focus {
+    font-style: italic;
+    font-weight: bold;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.input-color {
+    margin: 0;
+    padding: 0;
+    border: 1px dashed #000000;
+    width: 20px;
+    height: 20px;
+}
+.input-range {
+    appearance: none;
+    margin-top: 6px;
+    width: 70px;
+    height: 6px;
+    border: 1px solid #000000;
+    background: #ffffff;
+    cursor: pointer;
+}
+.input-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 5px;
+    height: 20px;
+    border: 1px solid #000000;
+    background: #000000;
+    box-shadow: none;
+}
+.input-checkbox {
+    accent-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 0;
+    outline: none;
+}
+#new-material-save-button-div {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+#new-material-save-button {
+    margin: 15px 0 0 0;
+    padding: 7px 17px;
+    background-color: #404040;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 17px;
+}
+#new-material-save-button:hover, #new-material-save-button:focus {
+    background-color: #000000;
+}
+.error-message {
+    color: #ff0000;
+    font-weight: bold;
+}
+.material-name-and-ion-div {
+    margin: 5px 10px 5px 30px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.material-name {
+    font-weight: bold;
+}
+.material-icon-div {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.action-icon-div {
+    background-color: #00000000;
+    margin: 5px 0;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.delete-icon {
+    background-image: url("../../image/delete.svg");
+}
+.download-icon {
+    background-image: url("../../image/download.svg");
+}
+.collapse-icon {
+    background-image: url("../../image/collapse.svg");
+}
+.material-element-div {
+    margin: 0;
+    padding: 2px 15%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.material-element-name {
+    margin: 0;
+    padding: 0;
+}
+.material-element-value {
+    margin: 0;
+    padding: 0;
+}
+.material-collapse-div {
+    margin: 0;
+    padding-bottom: 20px;
+}
+#setting-div {
+    margin: 0;
+    padding: 0;
+}
+#setting-back-icon {
+    margin: 0;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-color: #00000000;
+    background-image: url("../../image/back.svg");
+}
+#setting-element-all-div {
+    margin: 20px 10%;
+    padding: 0;
+}
+.setting-element-div {
+    margin: 5px 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.setting-element-key {
+    margin: 0;
+    padding: 0;
+}
+.setting-element-checkbox {
+    margin: 0;
+    padding: 0;
+    accent-color: #000000;
+}
