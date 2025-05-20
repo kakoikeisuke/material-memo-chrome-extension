@@ -1,8 +1,17 @@
 # Material Memo
 3DCGのマテリアル情報をメモするためのChrome拡張機能です。  
-サイドパネルとして展開されるため, 調べ物などで複数のタブを横断しながら情報を記録することができます。
+サイドパネルとして展開されるため, 調べ物などで複数のタブを横断しながら情報を記録することができます。  
+
+![](/README_resource/headerImage.png)
 
 ## インストール
+Chrome Web Store, またはGitHubのReleasesからChromeに追加することができます。  
+### Chrome Wwb Store経由
+以下のURLで公開しています。  
+
+Material Memo - Chrome ウェブストア  
+[https://chromewebstore.google.com/detail/mbplemcicgepfmhkohgggnibmdfknppa?utm_source=item-share-cb](https://chromewebstore.google.com/detail/mbplemcicgepfmhkohgggnibmdfknppa?utm_source=item-share-cb)  
+### GitHub経由
 `Releases`から`zip`ファイルをダウンロードすることができます。  
 ダウンロードしたファイルを解凍し, 以下のページを参考に, 拡張機能を有効化してください。  
 
@@ -21,8 +30,10 @@ MaterialX 1.38時点のStandard Surfaceを参考に各項目を用意してい�
 情報は`standard_surface`タグ内に記述されます。  
 また, ノード名(name)は「`SR_`+`指定した名前`」, 型(type)は「`surfaceshader`」となります。  
 メモを作成した際の情報のみ書き出されるため, 他の項目の値によって左右される際には, その項目も保存しておくべき場合があります。  
-具体的な例としては, 以下のような場合です。
-![](/README_resource/exampleEmission.png)
+具体的な例としては, 以下のような場合です。  
+
+![](/README_resource/exampleEmission.png)  
+
 上の「exampleEmission」では, `emission_color`が指定されているものの, `emission`の値が指定されておらず, レンダリング結果に反映されていません。  
 下の「exampleEmission_v2」では, `emission_color`に加え, `emission`自体の値も指定されており, 意図した通りにレンダリングできています。  
 ※レンダリング結果は, 書き出した`.mtlx`ファイルをAutodesk Maya 2026の`aiMaterialXShader`で読み込み, Arnoldでレンダリングしたものです。
