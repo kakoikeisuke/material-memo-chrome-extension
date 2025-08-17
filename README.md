@@ -1,6 +1,8 @@
 # Material Memo
 3DCGのマテリアル情報をメモするためのChrome拡張機能です。  
 サイドパネルとして展開されるため, 調べ物などで複数のタブを横断しながら情報を記録することができます。  
+動作の様子はこちらから確認できます。  
+[https://youtu.be/9NqdIDNn6dY?si=QA07Ps9TStBr2dRf](https://youtu.be/9NqdIDNn6dY?si=QA07Ps9TStBr2dRf)  
 
 ![](/README_resource/headerImage.png)
 
