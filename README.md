@@ -6,7 +6,7 @@
 
 ## インストール
 Chrome Web Store, またはGitHubのReleasesからChromeに追加することができます。  
-### Chrome Wwb Store経由
+### Chrome Web Store経由
 以下のURLで公開しています。  
 
 Material Memo - Chrome ウェブストア  
